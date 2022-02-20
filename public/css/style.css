@@ -1,0 +1,81 @@
+html{
+    min-height: 100%;
+    /* margin: 0px; */
+    position: relative;
+}
+
+.navbar{
+    min-height: 100px;
+    background-color: #d2e9e8;
+    color: #0e8181;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+.navButtons{
+    font-size: 13px;
+    border: 0;
+    background-color: #d2e9e8;
+}
+
+.footer{
+    background-color: #4FBDBA;
+    position: absolute;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    text-align: center;
+}
+
+.footer-padding{
+    padding-bottom: 60px;
+}
+
+.footer p{
+    margin-top: 15px;
+}
+
+.main{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.blogTitle{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.typeBlog{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.addButton{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background-color: #0e8181;
+    color: white;
+    border-radius: 10px;
+}
+
+.morebutton{
+    border: 0;
+    background-color: white;
+    color: blueviolet;
+}
+
+#compose{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 992px){
+    .main{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
