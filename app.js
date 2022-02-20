@@ -18,9 +18,13 @@ let blogschema = mongoose.Schema({
 
 let Blog = mongoose.model("Blogs",blogschema);
 
-var blogList = [];
+let port = process.env.PORT;
 
-app.listen(3000,function(){
+if(port==null || port==""){
+    port = 3000;
+}
+
+app.listen(port ,function(){
     console.log("Server is runnning at port 3000");
 });
 
